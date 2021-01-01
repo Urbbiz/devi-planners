@@ -1,0 +1,16 @@
+{
+  "name": "devi-planners",
+  "version": "1.0.0",
+  "description": "DeVi Planners project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=5500",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrius Urbonas urbbiz Flaismak",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "nodemon": "^2.0.6"
+  }
+}
