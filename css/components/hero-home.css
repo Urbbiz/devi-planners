@@ -1,0 +1,15 @@
+.container.hero {
+    text-align: center;
+    background-image: url(../../img/hero/hero1.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    
+}
+
+.container.hero h2 {
+background-color: royalblue;
+
+
+}
+
