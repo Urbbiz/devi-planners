@@ -5,9 +5,43 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1200px 1fr;
 
 }
 .container > .row {
     grid-column: 2/3;
+}
+
+@media (max-width: 1300px) {
+  .container {
+      grid-template-columns: 1fr 980px 1fr;
+}
+}
+
+@media (max-width: 1080px) {
+    .container { 
+        grid-template-columns: 1fr 780px 1fr;
+        gap: 20px;
+    }
+    .container > .row {
+        gap: 20px;
+    }
+}
+
+@media(max-width: 860px) {
+    .container {
+        grid-template-columns: 1fr 640px 1fr;
+    }
+    .container > .row {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 680px) {
+    .container {
+        grid-template-columns: 20px 1fr 20px;
+    }
+    .container > .row {
+        gap: 10px;
+    }
 }

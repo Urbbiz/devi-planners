@@ -4,8 +4,6 @@
 @import './components/layout.css';
 /* 3rd party components */
 
-/* google fonts */
-
 /* your components */
 @import './components/button.css';
 @import './components/footer.css';
@@ -46,9 +44,3 @@ CUSTOM HOME PAGE STYLES GOES BELOW THIS COMMENT
 /* contact */
 /* footer */
 
-
-
-
-body {
-    background-color: aliceblue;
-}
