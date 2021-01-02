@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "live-server --port=5500",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll"
   },
   "author": "Andrius Urbonas urbbiz Flaismak",
   "license": "ISC",
