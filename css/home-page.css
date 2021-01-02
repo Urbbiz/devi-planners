@@ -4,8 +4,6 @@
 @import './components/layout.css';
 /* 3rd party components */
 
-/* google fonts */
-
 /* your components */
 @import './components/button.css';
 @import './components/footer.css';
@@ -16,7 +14,7 @@
 @import './components/about.css';
 @import './components/services.css';
 @import './components/hire.css';
-@import './components/ourwork.css';
+@import './components/our-work.css';
 @import './components/client.css';
 @import './components/subscribe.css';
 @import './components/statistics.css';
@@ -46,9 +44,3 @@ CUSTOM HOME PAGE STYLES GOES BELOW THIS COMMENT
 /* contact */
 /* footer */
 
-
-
-
-body {
-    background-color: red;
-}
