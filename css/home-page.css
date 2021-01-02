@@ -1,10 +1,28 @@
 /* reset/main */
-
+@import './components/variables.css';
+@import './components/reset.css';
+@import './components/layout.css';
 /* 3rd party components */
 
 /* google fonts */
 
 /* your components */
+@import './components/button.css';
+@import './components/footer.css';
+@import './components/blog.css';
+@import './components/header.css';
+@import './components/hero-home.css';
+@import './components/testimonials.css';
+@import './components/about.css';
+@import './components/services.css';
+@import './components/hire.css';
+@import './components/ourwork.css';
+@import './components/client.css';
+@import './components/subscribe.css';
+@import './components/statistics.css';
+@import './components/getInTouch.css';
+
+
 
 /*
 ***********************************************
