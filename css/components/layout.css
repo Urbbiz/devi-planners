@@ -7,7 +7,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1300px 1fr;
    padding: var(--section-padding) 0;
-    gap: 30px;
+    gap: 20px;
 }
     .container > .row {
         display: grid;
@@ -32,6 +32,7 @@ body {
     .container > .row > .col-5-4 { grid-column: 5 / span 4; } /*for short headers*/
     .container > .row > .col-2-10 { grid-column: 2 / span 10; } /*for long p's */
     .container > .row > .col-6-7 { grid-column: 6 / span 7; } /* for nav */
+    .container > .row > .col-3-8 { grid-column: 3 / span 8; } /*for about p */
 
 @media (max-width: 1300px) {
     .container {
