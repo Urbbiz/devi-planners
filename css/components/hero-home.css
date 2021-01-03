@@ -4,12 +4,23 @@
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
-    
+     
+}
+.container.hero .wrap {
+    margin-top: 150px;
 }
 
 .container.hero h2 {
-background-color: royalblue;
+    background-color: royalblue;
+    font-size: 40px;
 
+}
 
+.container.hero h1 {
+    background-color: salmon;
+}
+
+.container.hero > .row .socials {
+    background-color: seagreen;
 }
 
