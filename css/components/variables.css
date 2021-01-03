@@ -1,0 +1,13 @@
+:root {
+    --header-font:'Montserrat', sans-serif;
+    --p-font: 'Nunito Sans', sans-serif;
+    --primary-color: #fff;
+    --secondary-color: #f8f9fa;
+    --main-text-color: #212529;
+    --secondary-text-color: #fff;
+    --light-text-color: #6c757d;
+    --font-family: Roboto,"Helvetica Neue",Arial,sans-serif;
+    --opaque-white: rgba(255, 255, 255, 0.7);
+    --dark-overlay:  rgba(0, 0, 0, 0.2);
+
+}

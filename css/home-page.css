@@ -3,6 +3,10 @@
 @import './components/reset.css';
 @import './components/layout.css';
 /* 3rd party components */
+@import './components/font-awesome.min.css';
+/* google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 /* your components */
 @import './components/button.css';
