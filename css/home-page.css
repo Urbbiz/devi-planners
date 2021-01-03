@@ -3,8 +3,10 @@
 @import './components/reset.css';
 @import './components/layout.css';
 /* 3rd party components */
-
-/* google fonts */
+@import './components/font-awesome.min.css';
+/* google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 /* your components */
 @import './components/button.css';
@@ -16,7 +18,7 @@
 @import './components/about.css';
 @import './components/services.css';
 @import './components/hire.css';
-@import './components/ourwork.css';
+@import './components/our-work.css';
 @import './components/client.css';
 @import './components/subscribe.css';
 @import './components/statistics.css';
@@ -46,9 +48,3 @@ CUSTOM HOME PAGE STYLES GOES BELOW THIS COMMENT
 /* contact */
 /* footer */
 
-
-
-
-body {
-    background-color: red;
-}
