@@ -1,0 +1,19 @@
+
+.heart:before {
+    display: inline-block;
+    margin-top: -11px;
+    vertical-align: middle;
+    content: "";
+    background-color: #d0d0d0;
+    width: 35px;
+    height: 2px;
+}
+.heart:after {
+    display: inline-block;
+    margin-top: -11px;
+    vertical-align: middle;
+    content: "";
+    background-color: #d0d0d0;
+    width: 35px;
+    height: 2px;
+    } 
