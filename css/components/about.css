@@ -7,5 +7,23 @@
     text-align: center;
     font-weight: 500;
     line-height: 40px;
-    color: rgb(31, 29, 29);
+    color: var(--main-text-color);
+}
+
+.about > h2 span {
+    background-color: gray;
+    font-weight: 400;
+}
+.about .heart {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.container.about p {
+    background-color: greenyellow;
+    font-family: var(--p-font);
+    font-size: 16px;
+    text-align: center;
+    color: var(--light-text-color);
 }
