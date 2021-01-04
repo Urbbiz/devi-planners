@@ -1,6 +1,7 @@
  .container.services {
     display: inline-block;
     padding-top: 30px;
+    padding-bottom: 30px;
     display:grid;
     margin-top: 50px;
     background-color: rgba(247, 242, 218, 0.562);
@@ -36,7 +37,9 @@
     text-align: center;
     color: var(--light-text-color);
     line-height: 1.2;
-    padding-bottom: 40px;
+    /* padding-bottom: 10px 10px 10px 40px; */
+    padding: 10px 10px 10px 40px;
+
 }
 .container.services h3 {
     font-family: var( --header-font);
@@ -49,7 +52,7 @@
 }
 
 .container.services .block {
-    padding: 10px;
+    padding-bottom: 10px;
     padding-top: 30px;
     border-radius: 10px;
     text-align: center;
