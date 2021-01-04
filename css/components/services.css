@@ -54,6 +54,10 @@
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 0 5px #0003;
+    transition: 0.5s;
+}
+.container.services .block:hover {
+   transform: scale(1.15); 
 }
 
 .container.services .block > img {
@@ -63,5 +67,5 @@
 
 .container.services .block .eat{
     width: 100px;
-    height: 80px;
+    height: 70px;
 }
