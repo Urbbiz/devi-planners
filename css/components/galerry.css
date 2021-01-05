@@ -4,7 +4,6 @@
     padding-bottom: 30px;
     display:grid;
     background-color: rgba(247, 242, 218, 0.562);
-    /* background-color: var(--secondary-colors); */
     font-size: 35px;
     font-family: var(--header-font);
     text-align: center;
