@@ -9,5 +9,6 @@
     --font-family: Roboto,"Helvetica Neue",Arial,sans-serif;
     --opaque-white: rgba(255, 255, 255, 0.7);
     --dark-overlay:  rgba(0, 0, 0, 0.2);
+    --white-overlay:  rgba(252, 248, 248, 0.60);
 
 }
