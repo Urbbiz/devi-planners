@@ -1,0 +1,68 @@
+.container.contact {
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display:grid;
+    /* background-color: rgba(247, 242, 218, 0.562); */
+    /* background-color: yellow; */
+    font-size: 35px;
+    font-family: var(--header-font);
+    text-align: center;
+    font-weight: 500;
+    line-height: 40px;
+    color: var(--main-text-color);
+}
+.container.contact h2 span {
+    /* background-color: gray; */
+    font-weight: 400;
+}
+.heart {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.container.contact .block {
+    /* background-color: yellow; */
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-top: 30px;
+    
+    text-align: center;
+    
+ 
+}
+
+
+.container.contact .block > img {
+    width: 65%;
+    /* height: 110%; */
+}
+
+.container.contact .block a {
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-family: var(--header-font);
+
+}
+
+.container.contact .block h3 {
+    font-family: var( --header-font);
+    color: rgb(31, 29, 29);
+    text-align: center;
+    font-size: 25px;
+    /* padding: 15px 0 0px; */
+    /* margin-bottom: 10px; */
+}  
+.container.contact .block p {
+     /* background-color: greenyellow; */
+     font-family: var(--p-font);
+     font-size: 20px;
+     text-align: center;
+     color: var(--light-text-color);
+     line-height: 1.2;
+     margin-bottom: 20px;
+     /* padding-bottom: 10px 10px 10px 40px; */
+     /* padding: 10px 10px 10px 40px; */
+ 
+}
