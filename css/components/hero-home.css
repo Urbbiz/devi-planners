@@ -156,6 +156,19 @@
 }
 
 
+/* @media (max-width: 680px) {
+    .container.hero > .row h1 { */
+        /* background-color: salmon;
+        display: inline-block;
+        width: 100%; */
+        /* font-size: 30px; */
+        /* font-weight: 300;
+        line-height: 1.2;
+        text-transform: capitalize;
+        margin-top: 15px;
+        font-family:var(--header-font); */
+    }
+
 
 
 
