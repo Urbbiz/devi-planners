@@ -1,11 +1,13 @@
 .container.hero {
     background-color: skyblue;
-    background-image: url(../../img/hero/hero1.jpg);
+    /* background-image: url(../../img/hero/hero1.jpg); */
     background-size: cover;
     background-position: center center;
     padding-top: 140px;
     min-height: 100vh;
-    position: relative;   
+    position: relative;  
+    
+    animation: slider 20s ease-in-out infinite;
 }
 
 .container.hero::before {
@@ -71,7 +73,7 @@
     font-weight: 1000;
     content: '';
     font-family:var(--header-font);
-    animation: animate infinite 30s;
+    animation: animate infinite 15s;
 }
 
 .container.hero > .row .socials {
@@ -131,6 +133,21 @@
       opacity: 0;
   }
 
+}
+
+@keyframes slider{
+    0%, 100% {
+        background-image: url(../../img/hero/1.jpg);
+    }
+    25% {
+        background-image: url(../../img/hero/2.jpg);
+    }
+    50% {
+        background-image: url(../../img/hero/3.jpg);
+    }
+    75% {
+        background-image: url(../../img/hero/4.jpg);
+    }
 }
 @media (max-width: 700px){
   .container.hero > .row h1 {
