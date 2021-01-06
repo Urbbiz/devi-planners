@@ -17,6 +17,7 @@
         nav {
 
             display: inline-block;
+            flex-wrap: wrap;
             float: right;
             font-family: var(--header-font);
         }
@@ -41,8 +42,8 @@
                 @media screen and (max-width: 630px) {
             
                    .hamburger {
-                       display: inline-block;
-                       float: left;
+                       display: flex;
+                       float: right;
                         background-color: transparent;
                         border: 0;
                         color: #fff;
@@ -53,8 +54,23 @@
                     .hamburger:hover {
                         color: gold;
                         transform: scale(1.1);
+                        text-align: right;
                     }
                    .ul {
                         display:none;
+                        flex-direction: column;
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .ul.show {
+                        display:flex;
+                    }
+                }
+
+                @media screen and (max-width: 320px) {
+                    img.logo {
+                        display: inline-block;
+                        float: left;
+                        height: 40px;
                     }
                 }
