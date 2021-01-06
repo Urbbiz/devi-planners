@@ -1,9 +1,8 @@
 .container.hero {
-    background-color: skyblue;
-    /* background-image: url(../../img/hero/hero1.jpg); */
+    background-color: gray;
     background-size: cover;
     background-position: center center;
-    padding-top: 0px;
+    padding-top: 100px;
     min-height: 100vh;
     position: relative;  
     
@@ -34,7 +33,6 @@
     display: inline-block;
     text-align: center;
     color: #fff;
-    /* color: gold; */
     z-index: 1;
     height: auto;
 }
@@ -54,7 +52,8 @@
     font-size: 32px;
     font-weight: 500;
     line-height: 1.2;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 .container.hero > .row h1 {
@@ -65,7 +64,7 @@
     font-weight: 300;
     line-height: 1.2;
     text-transform: capitalize;
-    margin-top: 15px;
+    margin-top: 10px;
     font-family:var(--header-font);
 }
 .container.hero > .row  h1 > span::before {
