@@ -43,8 +43,12 @@
     text-decoration: none;
     color: var(--main-text-color);
     font-family: var(--header-font);
-
 }
+.container.contact .block a:hover {
+    color: var(--light-text-color);
+  font-size: 37px;
+}
+
 
 .container.contact .block h3 {
     font-family: var( --header-font);
@@ -55,14 +59,10 @@
     /* margin-bottom: 10px; */
 }  
 .container.contact .block p {
-     /* background-color: greenyellow; */
      font-family: var(--p-font);
      font-size: 20px;
      text-align: center;
      color: var(--light-text-color);
      line-height: 1.2;
      margin-bottom: 20px;
-     /* padding-bottom: 10px 10px 10px 40px; */
-     /* padding: 10px 10px 10px 40px; */
- 
 }

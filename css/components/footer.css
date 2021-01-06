@@ -1,0 +1,99 @@
+/* .container .footer {
+    display: inline-block;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display:grid;
+    margin-top: 50px;
+    background-color: greenyellow;
+    font-size: 20px;
+    font-family: var(--header-font);
+    text-align: center;
+    font-weight: 500;
+    line-height: 40px;
+    color: var(--main-text-color);
+}
+
+.footer .img {
+    display: inline-block;
+    float: right;
+    background-color: yellow;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    
+}
+.container.footer p {
+    background-color: turquoise;
+} */
+
+.container.footer {
+    display: inline-block;
+    padding: 0 15px;
+    background: var(--secondary-color);
+    background-color: #eaeef1;
+    color: var(--light-text-color);  
+    /* background-color: grey; */
+}
+.footer > .row {
+    padding: 24px 0;
+    padding-bottom: 0;
+    margin: 0 101px;
+    /* background-color: hotpink; */
+}
+.footer p {
+    display: inline-block; 
+    float: left;
+    margin: 8px 0;
+    line-height: 42px;
+    font-family: var(--p-font);
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+    /* background-color: greenyellow; */
+}
+
+.footer .crt {
+    display: inline-block; 
+    float:right;
+    margin: 2px 0; 
+    line-height: 42px; 
+  font-family: var(--p-font); 
+    font-size: 18px;
+    font-weight: 400px;
+    text-align: center; 
+     /* background-color: greenyellow;  */
+}
+.footer .crt .img {
+    display: inline-block; 
+    margin: -5px 25px;
+    font-family: var(--p-font);
+    font-size: 12px;
+    font-weight: 400px;
+    text-align: center;
+    width: 100px;
+    transition: 0.5s;
+    /* background-color: red; */
+}
+.footer .crt .img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+ }
+ 
+.footer .crt p {
+    padding-bottom: -50px;
+    /* background-color:gainsboro; */
+    text-align: center;
+}
+
+@media (max-width: 660px) {
+    .footer p {
+        width: 100%;
+    }
+    .footer .img {
+        width: 100%;
+    }
+    .footer .crt {
+        width: 100%;
+    }
+}
