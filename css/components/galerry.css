@@ -12,6 +12,7 @@
     color: var(--main-text-color);
 }
 
+
 .container.gallery .block {
     padding-bottom: 10px;
     padding-top: 30px;
@@ -24,7 +25,7 @@
    transform: scale(1.15); 
 }
 
-.container.gallery .block > img {
+.container.gallery .block > a img {
     width: 100%;
     /* height: 80px; */
 }
