@@ -49,3 +49,19 @@ CUSTOM HOME PAGE STYLES GOES BELOW THIS COMMENT
 /* contact */
 /* footer */
 
+/* gallery! */ 
+.gallery1 {
+    margin: 50px 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+.gallery1 img {
+    transition: 0.5s;
+    padding: 15px;
+    width: 300px;
+}
+
+.gallery1 img:hover {
+    filter:grayscale(100%);
+    transform: scale(1.1);
+}
