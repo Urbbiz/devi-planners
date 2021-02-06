@@ -66,12 +66,12 @@
 }
 .footer .crt .img {
     display: inline-block; 
-    margin: -5px 25px;
+    margin: 20px 25px;
     font-family: var(--p-font);
     font-size: 12px;
     font-weight: 400px;
     text-align: center;
-    width: 100px;
+    width: 180px;
     transition: 0.5s;
     /* background-color: red; */
 }
@@ -82,18 +82,27 @@
  
 .footer .crt p {
     padding-bottom: -50px;
-    /* background-color:gainsboro; */
+    background-color:gainsboro;
     text-align: center;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 755px) {
     .footer p {
         width: 100%;
     }
     .footer .img {
-        width: 100%;
+        width: 30%;
     }
     .footer .crt {
         width: 100%;
     }
+}
+@media (max-width: 480px) {
+    .footer .crt .img {
+        margin: 10px 0px;
+        width: 100%;
+        
+     
+
+
 }
