@@ -99,10 +99,8 @@
 }
 @media (max-width: 480px) {
     .footer .crt .img {
+        
         margin: 10px 0px;
         width: 100%;
-        
-     
-
     }
 }

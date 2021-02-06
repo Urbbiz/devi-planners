@@ -72,3 +72,10 @@
     width: 100px;
     height: 70px;
 }
+
+
+@media (max-width: 480px) {
+    .container.services{
+        font-size: 28px;
+        }
+    }
