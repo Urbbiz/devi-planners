@@ -15,7 +15,7 @@
 
 .container.gallery .block {
     padding-bottom: 10px;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 0 5px #0003;
