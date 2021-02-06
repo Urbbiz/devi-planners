@@ -62,7 +62,7 @@
     font-size: 18px;
     font-weight: 400px;
     text-align: center; 
-     background-color: greenyellow; 
+     /* background-color: greenyellow;  */
 }
 .footer .crt .img {
     display: inline-block; 
@@ -86,14 +86,23 @@
     text-align: center;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 755px) {
     .footer p {
         width: 100%;
     }
     .footer .img {
-        width: 100%;
+        width: 30%;
     }
     .footer .crt {
         width: 100%;
     }
+}
+@media (max-width: 480px) {
+    .footer .crt .img {
+        margin: 10px 0px;
+        width: 100%;
+        
+     
+
+
 }
