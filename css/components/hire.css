@@ -69,3 +69,10 @@
         background-color: silver;
 
     }
+ 
+ @media (max-width: 480px) {
+        .container.hire h2 {
+              /* background-color: yellow; */ */
+            font-size: 28px;
+            }
+     

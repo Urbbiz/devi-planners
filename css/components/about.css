@@ -47,5 +47,12 @@
         width: 40vh;
         /* height: 60vh; */
         margin-top: -80px;
+        }
     }
+
+    
+@media (max-width: 480px) {
+    .container.about .about {
+        font-size: 28px;
+        }
     }
