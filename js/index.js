@@ -2,7 +2,6 @@
 /* header */
 const hamburger = document.getElementById('hamburger');
 const nav = document.getElementById('nav');
-
 hamburger.addEventListener('click', () => {
     nav.classList.toggle('show');
 })
@@ -20,4 +19,11 @@ hamburger.addEventListener('click', () => {
 /* subscribe */
 /* blog */
 /* contact */
+
 /* footer */
+const year = new Date().getFullYear();
+const date = '2021 &copy DeVi Planners.'
+document.getElementById('datejs').innerHTML = date;
+
+
+
