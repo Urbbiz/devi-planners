@@ -22,8 +22,5 @@ hamburger.addEventListener('click', () => {
 
 /* footer */
 const year = new Date().getFullYear();
-const date = '2021 &copy DeVi Planners.'
+const date = `${year} &copy DeVi Planners.`
 document.getElementById('datejs').innerHTML = date;
-
-
-
