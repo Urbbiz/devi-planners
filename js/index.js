@@ -7,18 +7,6 @@ hamburger.addEventListener('click', () => {
 })
 
 
-/* hero */
-/* about */
-/* services */
-/* statistics */
-/* education and experience */
-/* hire me */
-/* our work */
-/* testimonials */
-/* trusted (logos) */
-/* subscribe */
-/* blog */
-/* contact */
 
 /* footer */
 const year = new Date().getFullYear();
